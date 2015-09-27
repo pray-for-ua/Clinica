@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clinica Home</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100italic,100,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,vietnamese,cyrillic-ext,cyrillic,greek-ext,greek,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="info-box">
+            <div class="content clearfix">
+                <div class="email">info@vitaclinica.com</div>
+                <div class="phone">(044) 123 4567</div>
+                <ul class="header-soc clearfix">
+                    <li><a class="facebook"></a></li>
+                    <li><a class="twitter"></a></li>
+                    <li><a class="gplus"></a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="main-header-box">
+            <div class="content clearfix">
+              <nav>
+                <a href="">Главная</a>
+                <a href="">Врачи</a>
+                <a href="">Прайс</a>
+                <a href="">Расписание</a>
+                <a href="">Галерея</a>
+                <a href="">Форум</a>
+                <a href="">Блог</a>
+                <a href="">Контакты</a>
+              </nav>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+       <div class="slider-box">
+          <div class="content">
+              <div id="picture-slider">
+                    <ul class="slides clearfix">
+                        <li> 
+                            <div class="slide-heading">Пациент -<span>превыше всего!</span></div>
+                            <div class="slide-inscription">Мы уделяем максимум внимания потребностям наших пациентов, оправдываем их ожидания, более того - стараемся их превзойти.
+                            </div>
+                            <button class="slide-btn btn-ui"><div>ПОДРОБНЕЕ</div></button>
+                            <div class="slide-img"></div>
+                        </li>
+                        <li> <div class="slide-heading">Выпьем <span>за любовь!</span></div>
+                              <div class="slide-inscription">Мы уделяем максимум внимания потребностям наших пациентов, оправдываем их ожидания, более того - стараемся их превзойти.
+                              </div>
+                             <button class="slide-btn btn-ui"><div>ПОДРОБНЕЕ</div></button>
+                              <div class="slide-img"></div>
+                        </li>
+                        <li> <div class="slide-heading">И еще раз<span>за любовь!</span></div>
+                              <div class="slide-inscription">Мы уделяем максимум внимания потребностям наших пациентов, оправдываем их ожидания, более того - стараемся их превзойти.
+                              </div>
+                             <button class="slide-btn btn-ui"><div>ПОДРОБНЕЕ</div></button>
+                              <div class="slide-img"></div>
+                        </li>
+                    </ul>  
+                     <div class="slider-nav">
+                         <ul>
+                         </ul>
+                     </div> 
+                </div>
+            </div>
+        </div>
+        <div class="time-table-box">
+            <div class="content clearfix">
+                <span class="time-table-heading">Время работы</span>
+                <div class="time-table clearfix">
+                    <div class="time-table-block">
+                            <div class="days">Понедельник - пятница</div>
+                            <div class="time">08:00 - 21:00</div>
+                    </div>
+                    <div class="time-table-block">
+                            <div class="days">Суббота - воскресенье</div>
+                            <div class="time">09:00 - 19:00</div>
+                    </div> 
+                </div>                                   
+                <button class="time-table-btn btn-ui"><div>РАСПИСАНИЕ ВРАЧЕЙ</div></button>
+            </div>
+        </div>
+        <div class="services-box">
+            <div class="content clearfix">
+                <div class="services-heading">Услуги клиники</div>
+                <div class="services-content clearfix">
+                    <div class="row clearfix">
+                        <div class="service-content-box">
+                            
+                        </div>
+                        <div class="service-content-box"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/jquery.slideshow.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#picture-slider').slideShow();
+        });
+    </script>
+    
+</body>
+</html>
